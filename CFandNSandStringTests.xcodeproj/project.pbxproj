@@ -13,6 +13,7 @@
 		C93450CB1A995FDE00E9922E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93450CA1A995FDE00E9922E /* Images.xcassets */; };
 		C93450CE1A995FDE00E9922E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93450CC1A995FDE00E9922E /* LaunchScreen.xib */; };
 		C93450DA1A995FDE00E9922E /* CFandNSandStringTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93450D91A995FDE00E9922E /* CFandNSandStringTestsTests.swift */; };
+		C93450E41A99634800E9922E /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93450E31A99634800E9922E /* StringTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C93450D31A995FDE00E9922E /* CFandNSandStringTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFandNSandStringTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93450D81A995FDE00E9922E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C93450D91A995FDE00E9922E /* CFandNSandStringTestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFandNSandStringTestsTests.swift; sourceTree = "<group>"; };
+		C93450E31A99634800E9922E /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				C93450CA1A995FDE00E9922E /* Images.xcassets */,
 				C93450CC1A995FDE00E9922E /* LaunchScreen.xib */,
 				C93450C11A995FDE00E9922E /* Supporting Files */,
+				C93450E31A99634800E9922E /* StringTests.swift */,
 			);
 			path = CFandNSandStringTests;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C93450C61A995FDE00E9922E /* ViewController.swift in Sources */,
+				C93450E41A99634800E9922E /* StringTests.swift in Sources */,
 				C93450C41A995FDE00E9922E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
